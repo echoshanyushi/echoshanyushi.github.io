@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://echoshanyushi.github.io/"/>
-  <updated>2020-02-07T05:05:00.717Z</updated>
+  <updated>2020-02-07T16:12:20.422Z</updated>
   <id>https://echoshanyushi.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://echoshanyushi.github.io/2020/02/07/test/"/>
     <id>https://echoshanyushi.github.io/2020/02/07/test/</id>
     <published>2020-02-07T05:01:48.000Z</published>
-    <updated>2020-02-07T05:05:00.717Z</updated>
+    <updated>2020-02-07T16:12:20.422Z</updated>
     
     <summary type="html">
     
@@ -35,6 +35,8 @@
     
     </summary>
     
+    
+      <category term="test" scheme="https://echoshanyushi.github.io/categories/test/"/>
     
     
   </entry>
