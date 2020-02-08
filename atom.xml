@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://echoshanyushi.github.io/"/>
-  <updated>2020-02-08T06:48:53.812Z</updated>
+  <updated>2020-02-08T09:23:11.235Z</updated>
   <id>https://echoshanyushi.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://echoshanyushi.github.io/2020/02/07/test/"/>
     <id>https://echoshanyushi.github.io/2020/02/07/test/</id>
     <published>2020-02-07T05:01:48.000Z</published>
-    <updated>2020-02-08T06:48:53.812Z</updated>
+    <updated>2020-02-08T09:23:11.235Z</updated>
     
     <content type="html"><![CDATA[<p>This is a test.</p><a id="more"></a><p>baidu:<br><a href="http://www.baidu.com" target="_blank" rel="noopener">www.baidu.com</a></p><img src="/2020/02/07/test/686.jpg" class>]]></content>
     
@@ -34,6 +34,8 @@
     
       <category term="test" scheme="https://echoshanyushi.github.io/categories/test/"/>
     
+    
+      <category term="test" scheme="https://echoshanyushi.github.io/tags/test/"/>
     
   </entry>
   

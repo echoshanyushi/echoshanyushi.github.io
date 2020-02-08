@@ -12,6 +12,9 @@
       <categories>
         <category>test</category>
       </categories>
+      <tags>
+        <tag>test</tag>
+      </tags>
   </entry>
   <entry>
     <title>Hello World</title>
