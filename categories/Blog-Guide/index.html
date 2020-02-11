@@ -413,7 +413,7 @@
               
                 <a href="/archives/%7C%7C%20archive">
               
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -528,7 +528,7 @@
 <script>
     var now = new Date();
     function createtime() {
-        var grt= new Date("01/08/2096 00:00:00");//此处修改你的建站时间或者网站上线时间
+        var grt= new Date("01/08/2096 00:00:00");//此处修改为你的一百岁生日
         now.setTime(now.getTime()+250);
         days = (grt - now ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
         hours = (grt - now ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
@@ -708,6 +708,24 @@ setInterval("createtime()",250);
 
 
 
+
+
+<!-- LOCAL: You can save these files to your site and update links -->
+    
+        
+        <link rel="stylesheet" href="https://aimingoo.github.io/gitmint/style/default.css">
+        <script src="https://aimingoo.github.io/gitmint/dist/gitmint.browser.js"></script>
+    
+<!-- END LOCAL -->
+
+    
+      <style>
+        a.gitment-editor-footer-tip { display: none; }
+        .gitment-container.gitment-footer-container { display: none; }
+      </style>
+    
+
+    
 
 
 

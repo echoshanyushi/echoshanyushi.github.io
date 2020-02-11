@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>test</title>
-    <url>/2020/02/10/test/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>博客自制指南</title>
     <url>/2020/02/07/%E5%8D%9A%E5%AE%A2%E8%87%AA%E5%88%B6%E6%8C%87%E5%8D%97/</url>
     <content><![CDATA[<blockquote>
@@ -32,7 +27,7 @@
 <li><p>Hexo  </p>
 </li>
 </ol>
-<h2 id="IntelliJ-IDEA"><a href="#IntelliJ-IDEA" class="headerlink" title="IntelliJ IDEA"></a>IntelliJ IDEA</h2><p>IntelliJ IDEA（以下简称IDEA）是被夏同学强烈推荐的，程序猿必备的管理工具。自制博客过程中各种文件类型的代码修改，以及后面写.md的博客文件都可以用这个软件，手动修改任何东西都会自动保存，左边的小箭头能够指示.md文件的段落，而且界面五彩缤纷的非常友好。  </p>
+<h2 id="IntelliJ-IDEA"><a href="#IntelliJ-IDEA" class="headerlink" title="IntelliJ IDEA"></a>IntelliJ IDEA</h2><p>IntelliJ IDEA（以下简称IDEA）是被夏同学强烈推荐的，程序猿必备的管理工具。自制博客过程中各种文件类型的代码修改，以及后面写.md的博文都可以用这个软件，手动修改任何东西都会自动保存，左边的小箭头能够指示.md文件的段落，而且界面五彩缤纷的非常友好。  </p>
 <p><img src="/2020/02/07/%E5%8D%9A%E5%AE%A2%E8%87%AA%E5%88%B6%E6%8C%87%E5%8D%97/IDEA.png" alt>  </p>
 <h2 id="Github"><a href="#Github" class="headerlink" title="Github"></a>Github</h2><p>Github Pages是Github提供的博客服务，在Github中创建一个特定格式的Repository，Github Pages就会将其中的内容生成一个网页，也就是自己的博客展示出来。步骤如下：  </p>
 <ol>
@@ -45,8 +40,8 @@
 <li><p>打开网页：<a href="https://echoshanyushi.github.io/">https://echoshanyushi.github.io/</a>，就可以看到“Hello World!”了，自己的网页雏形，是不是很激动！  </p>
 </li>
 </ol>
-<p>如果直接用这个README.md来写博客也是可以的，但是这也显得太极简了吧，于是我们需要一个好看的框架来承载我们好看的心灵，哦不，好看的博客。  </p>
-<h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h2><p>Hexo是一个博客框架，它可以嵌入好看的主题，连同我们写的博客.md文件一起生成本地的.html文件，最后推给Github去生成公开网页。步骤如下：  </p>
+<p>如果直接用这个README.md来写博文也是可以的，但是这也显得太极简了吧，于是我们需要一个好看的框架来承载我们好看的心灵，哦不，好看的博客。  </p>
+<h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h2><p>Hexo是一个博客框架，它可以嵌入好看的主题，连同我们写的博文.md文件一起生成本地的.html文件，最后推给Github去生成公开网页。步骤如下：  </p>
 <ol>
 <li><p>安装Node.js：<a href="https://nodejs.org/en/" target="_blank" rel="noopener">https://nodejs.org/en/</a>  </p>
 </li>
@@ -61,7 +56,7 @@
 <li>输入<code>hexo ini</code>将这个文件夹初始化为博客文件夹</li>
 <li>输入<code>npm install</code>安装依赖包</li>
 <li>输入<code>hexo g</code>或者<code>hexo generate</code>生成静态.html网页文件</li>
-<li>输入<code>hexo s</code>或者<code>hexo server</code>将本地网页放到本地服务器<a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a>，打开链接可以看到Hexo默认的博客主题效果以及一篇自带的Hello World的博客</li>
+<li>输入<code>hexo s</code>或者<code>hexo server</code>将本地网页放到本地服务器<a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a>，打开链接可以看到Hexo默认的博客主题效果以及一篇自带的Hello World的博文</li>
 <li>回到Git Bash，按Ctrl+C结束，此时本地服务器链接已不可访问了<br>&nbsp;</li>
 </ul>
 </li>
@@ -81,11 +76,11 @@
 <li>打开网页：<a href="https://echoshanyushi.github.io/">https://echoshanyushi.github.io/</a>，就可以看到之前本地服务器所看到的博客，大功告成！<br>&nbsp;</li>
 </ul>
 </li>
-<li><p>发布博客流程  </p>
+<li><p>发布博文流程  </p>
 <ul>
 <li>在MyBlog文件夹中选择Git Bash</li>
 <li>输入<code>hexo n &quot;My First Post&quot;</code>或者<code>hexo new &quot;My First Post&quot;</code></li>
-<li>在(E:\MyBlog\source_posts)路径下，会有一个My-First-Post.md的博客文件，编辑这个文件并保存</li>
+<li>在(E:\MyBlog\source_posts)路径下，会有一个My-First-Post.md的博文文件，编辑这个文件并保存</li>
 <li>输入<code>hexo s</code>，查看本地博客效果，按Ctrl+C结束</li>
 <li>输入<code>hexo cl</code>或者<code>hexo clean</code>，清空生成过的静态.html文件和缓存数据，比如(E:\MyBlog\public)文件夹就没有了</li>
 <li>输入<code>hexo g</code>，生成新的静态.html文件</li>
@@ -131,10 +126,10 @@
 <li>回到Gui Bash，分别输入<code>hexo new page categories</code>，<code>hexo new page tages</code>，<code>hexo new page about</code>，在source文件夹下就出现了categories，tages，about三个文件夹</li>
 <li>打开三个文件夹下的对应.md文件，在日期下分别添加<code>type: categories</code>，<code>type: tags</code>，<code>type: about</code>，其中about.md文件的正文中可以自由发挥，作为自己的简介</li>
 <li>此时建议查看本地博客的效果，尝试点击菜单栏是否可以进入对应的页面</li>
-<li>若成功，则以后新建博客之后，在.md文件的上方添加<code>categories: 分类1</code>，<code>tags: 标签1</code>或<code>tags: [标签1, 标签1]</code>就可以将博客自动归入对应的分类和添加对应的标签了<br>&nbsp;</li>
+<li>若成功，则以后新建博文之后，在.md文件的上方添加<code>categories: 分类1</code>，<code>tags: 标签1</code>或<code>tags: [标签1, 标签1]</code>就可以将博文自动归入对应的分类和添加对应的标签了<br>&nbsp;</li>
 </ul>
 </li>
-<li><p>添加搜索功能</p>
+<li><p>添加搜索功能  </p>
 <ul>
 <li>回到Git Bash，输入<code>npm install hexo-generator-searchdb --save</code>，安装hexo-generator-searchdb</li>
 <li>打开<strong>博客配置文件</strong>，找到<code>Extensions</code>，在下面添加：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  format: html</span><br><span class="line">  limit: 10000</span><br></pre></td></tr></table></figure>
@@ -149,31 +144,73 @@
 <li>打开<strong>主题配置文件</strong>，找到<code># Sidebar Settings</code>，设置社交网站链接，<code>||</code>前为链接，后为图标<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">social:</span><br><span class="line">  GitHub: https:&#x2F;&#x2F;github.com&#x2F;echoshanyushi || github</span><br><span class="line">  Instagram: https:&#x2F;&#x2F;instagram.com&#x2F;echo_shan1949 || instagram</span><br><span class="line">  Zhihu: http:&#x2F;&#x2F;www.zhihu.com&#x2F;people&#x2F;shuang-yu-shu || star</span><br><span class="line">  E-Mail: mailto:echo_shan@qq.com || envelope</span><br></pre></td></tr></table></figure></li>
 </ul>
 </li>
-<li><p>设置头像</p>
+<li><p>设置头像  </p>
 <ul>
 <li>将头像文件，如head.jpg，放入(themes/next/source/images)文件夹中</li>
 <li>打开<strong>主题配置文件</strong>，找到<code># Sidebar Avatar</code>，设置为<code>avatar: /images/head.jpg</code><br>&nbsp;</li>
 </ul>
 </li>
-<li><p>设置RSS</p>
+<li><p>设置RSS  </p>
 <ul>
 <li>回到Git Bash，输入<code>npm install hexo-generator-feed --save</code>，安装hexo-generator-feed</li>
 <li>打开<strong>博客配置文件</strong>，找到<code>Extensions</code>下面的<code># RSS订阅</code>，在下面添加：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">plugins: hexo-generator-feed</span><br><span class="line">feed:</span><br><span class="line">  type: atom</span><br><span class="line">  path: atom.xml</span><br><span class="line">  limit: 20</span><br></pre></td></tr></table></figure></li>
 <li>配置博客并部署完成之后，点击博客页面的RSS图标进入网页<a href="https://echoshanyushi.github.io/atom.xml">https://echoshanyushi.github.io/atom.xml</a>，该路径即为RSS订阅源路径<br>&nbsp;</li>
 </ul>
 </li>
-<li><p>设置网站缩略图标</p>
+<li><p>设置网站缩略图标  </p>
 <ul>
 <li>将缩略图文件，如sun.jpg，放入(themes/next/source/images)文件夹中</li>
 <li>打开<strong>主题配置文件</strong>，找到<code>favicon:</code>，设置为:<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">favicon:</span><br><span class="line">  small: &#x2F;images&#x2F;sun.png</span><br><span class="line">  medium: &#x2F;images&#x2F;sun.png</span><br><span class="line">  apple_touch_icon: &#x2F;images&#x2F;sun.png</span><br></pre></td></tr></table></figure></li>
 </ul>
 </li>
-<li><p>设置动态背景</p>
+<li><p>设置动态背景  </p>
 <ul>
 <li>打开<strong>主题配置文件</strong>，找到<code>canvas_nest:</code>，设置为:<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">canvas_nest:</span><br><span class="line">  onmobile: true # display on mobile or not</span><br><span class="line">  color: &quot;0,0,0&quot; # 线条颜色，三个数字分别为(R,G,B)</span><br><span class="line">  opacity: 0.5 # 线条透明度（0~1）</span><br><span class="line">  zIndex: -1 # 背景的z-index属性</span><br><span class="line">  count: 99 # 线条的总数量</span><br></pre></td></tr></table></figure></li>
 </ul>
 </li>
-<li><h2 id="设置顶部进度条"><a href="#设置顶部进度条" class="headerlink" title="设置顶部进度条"></a>设置顶部进度条</h2><p>文章底部标签<br>博客添加图片<br>博客摘要</p>
+<li><p>设置顶部进度条，默认的蓝色进度条我觉得和背景不搭，而且宽度不够遮住顶部的黑线，所以强迫症还修改了一下进度条的颜色和宽度  </p>
+<ul>
+<li>打开<strong>主题配置文件</strong>，找到<code>pace:</code>，去掉所选主题前的#，设置为:<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">pace: true</span><br><span class="line">pace_theme: pace-theme-minimal</span><br></pre></td></tr></table></figure></li>
+<li>打开(themes\next\source\lib\pace)文件夹，打开所选的进度条文件pace-theme-minimal.min.css，拖到一行的最后，设置为：</li>
+<li>修改背景为<code>background:#eeeeee;</code>，高度为<code>height:3px</code><br>&nbsp;</li>
+</ul>
+</li>
+<li><p>设置底部作者图标  </p>
+<ul>
+<li>打开<strong>主题配置文件</strong>，找到<code>footer:</code>下面的<code>icon:</code>，设置为:<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># Icon between year and copyright info.</span><br><span class="line">icon: heart</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+<li><p>设置生命倒计时，一般为网站运行时间，但博主用的是到100岁的倒计时，以提醒自己珍惜光阴  </p>
+<p>-打开(themes\next\layout_partials\footer.swig)文件，找到如下代码：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% if theme.footer.custom_text %&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>在其之上添加如下代码：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!-- 网站运行时间的设置 --&gt;</span><br><span class="line">&lt;span id&#x3D;&quot;timeDate&quot;&gt;Loading...&lt;&#x2F;span&gt;</span><br><span class="line">&lt;span id&#x3D;&quot;times&quot;&gt;Loading...&lt;&#x2F;span&gt;</span><br><span class="line">&lt;script&gt;</span><br><span class="line">    var now &#x3D; new Date();</span><br><span class="line">    function createtime() &#123;</span><br><span class="line">        var grt&#x3D; new Date(&quot;01&#x2F;08&#x2F;2096 00:00:00&quot;);&#x2F;&#x2F;此处修改你的100岁生日</span><br><span class="line">        now.setTime(now.getTime()+250);</span><br><span class="line">        days &#x3D; (grt - now ) &#x2F; 1000 &#x2F; 60 &#x2F; 60 &#x2F; 24; dnum &#x3D; Math.floor(days);</span><br><span class="line">        hours &#x3D; (grt - now ) &#x2F; 1000 &#x2F; 60 &#x2F; 60 - (24 * dnum); hnum &#x3D; Math.floor(hours);</span><br><span class="line">        if(String(hnum).length &#x3D;&#x3D;1 )&#123;hnum &#x3D; &quot;0&quot; + hnum;&#125; minutes &#x3D; (grt - now ) &#x2F; 1000 &#x2F;60 - (24 * 60 * dnum) - (60 * hnum);</span><br><span class="line">        mnum &#x3D; Math.floor(minutes); if(String(mnum).length &#x3D;&#x3D;1 )&#123;mnum &#x3D; &quot;0&quot; + mnum;&#125;</span><br><span class="line">        seconds &#x3D; (grt - now ) &#x2F; 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);</span><br><span class="line">        snum &#x3D; Math.round(seconds); if(String(snum).length &#x3D;&#x3D;1 )&#123;snum &#x3D; &quot;0&quot; + snum;&#125;</span><br><span class="line">        document.getElementById(&quot;timeDate&quot;).innerHTML &#x3D; &quot;Time left &quot;+dnum+&quot; d &quot;;</span><br><span class="line">        document.getElementById(&quot;times&quot;).innerHTML &#x3D; hnum + &quot; h &quot; + mnum + &quot; m &quot; + snum + &quot; s&quot;;</span><br><span class="line">    &#125;</span><br><span class="line">setInterval(&quot;createtime()&quot;,250);</span><br><span class="line">&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+<li><p>设置站点访问计数  </p>
+<ul>
+<li>打开<strong>主题配置文件</strong>，找到<code>busuanzi_count:</code>，设置为：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">busuanzi_count:</span><br><span class="line">  # count values only if the other configs are false</span><br><span class="line">  enable: true</span><br><span class="line">  total_visitors: true</span><br><span class="line">  total_visitors_icon: user</span><br><span class="line">  total_views: true</span><br><span class="line">  total_views_icon: eye</span><br><span class="line">  # custom uv span for the whole site</span><br><span class="line">  site_uv: true</span><br><span class="line">  site_uv_header: &lt;i class&#x3D;&quot;fa fa-user&quot;&gt;&lt;&#x2F;i&gt;</span><br><span class="line">  site_uv_footer:</span><br><span class="line">  # custom pv span for the whole site</span><br><span class="line">  site_pv: true</span><br><span class="line">  site_pv_header: &lt;i class&#x3D;&quot;fa fa-eye&quot;&gt;&lt;&#x2F;i&gt;</span><br><span class="line">  site_pv_footer:</span><br><span class="line">  # custom pv span for one page only</span><br><span class="line">  page_pv: true</span><br><span class="line">  page_pv_header: &lt;i class&#x3D;&quot;fa fa-file-o&quot;&gt;&lt;&#x2F;i&gt;</span><br><span class="line">  page_pv_footer:</span><br></pre></td></tr></table></figure></li>
+<li>打开(themes\next\layout_third-party\analytics\busuanzi-counter.swig)文件，将<code>&lt;script async src=&quot;https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js&quot;&gt;&lt;/script&gt;</code>修改为：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;script async src&#x3D;&quot;&#x2F;&#x2F;busuanzi.ibruce.info&#x2F;busuanzi&#x2F;2.3&#x2F;busuanzi.pure.mini.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure></li>
+<li>本地博客可能会出现大额数字的情况，但是部署到Github之后就恢复正常了<br>&nbsp;</li>
+</ul>
+</li>
+<li><p>设置阅读全文按钮，只需要在博文中如下代码，那么后面的部分就不在博客首页显示了  </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!--more--&gt;</span><br></pre></td></tr></table></figure></li>
+<li><p>修改文章底部的#标签图标  </p>
+<ul>
+<li>打开(themes/next/layout/_macro/post.swig)文件，搜索<code>rel=&quot;tag&quot;&gt;#</code>，将<code>#</code> 换成<code>&lt;i class=&quot;fa fa-tag&quot;&gt;&lt;/i&gt;</code><br>&nbsp;</li>
+</ul>
+</li>
+<li><p>修改博文内链接文本样式  </p>
+<ul>
+<li>打开(themes\next\source\css_common\components\post\post.styl)文件，在末尾添加如下代码：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">.post-body p a &#123;</span><br><span class="line">  color: #0593d3;</span><br><span class="line">  border-bottom: none;</span><br><span class="line">  border-bottom: 1px solid #0593d3;</span><br><span class="line">  &amp;:hover &#123;</span><br><span class="line">    color: #fc6423;</span><br><span class="line">    border-bottom: none;</span><br><span class="line">    border-bottom: 1px solid #fc6423;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+<li><p>添加版权说明  </p>
+<ul>
+<li>博客添加图片压缩neat</li>
+<li>hexo报错<code>Template render error: (unknown path)   parseIf: expected elif, else, or endif, got end of file</code></li>
+</ul>
 </li>
 </ol>
 ]]></content>
